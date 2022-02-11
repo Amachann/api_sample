@@ -1,0 +1,119 @@
+/*汎用設定*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4FFF8;
+}
+
+.none {
+    display: none !important;
+}
+
+#main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*サイドメニュー*/
+nav {
+    height: 100%;
+    min-width: 200px;
+    background-color: #567bec;
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    margin: 35px 0;
+    color: #043322;
+    border-bottom: 1px solid #043322;
+    letter-spacing: 0.3em;
+}
+
+h4 {
+    margin: 10px 5px 0px 5px;
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    letter-spacing: 0.1em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+}
+
+li {
+    font-size: 1.2em;
+    flex: auto;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 0.5em;
+    border-right: solid;
+}
+
+li>p {
+    width: 120px;
+    margin: 0 auto;
+}
+
+li:hover {
+    background-color: #0e21cc;
+    cursor: pointer;
+}
+
+#itemsListArea>table {
+    margin:  0 auto;
+    padding: 20px 0;
+    width: 60%;
+}
+
+#itemsListArea th {
+    margin: 0 10px;
+}
+
+#itemsListArea td {
+    border-top: 1px solid #a2ccbd;
+    padding-top: 15px;
+}
+
+.itemId {
+    width: 10%;
+}
+
+.itemName {
+    width: 60%;
+}
+
+.itemPrice {
+    width: 30%;
+}
+
+.hasForm>div {
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.hasForm p {
+    margin-bottom: 2rem;
+}
+
+dialog {
+    width: 30%;
+}
+
+.modalHeader {
+    margin: 0 0 30px 0;
+}
+
+dialog label {
+    width: 25%;
+}
+
+dialog menu {
+    margin-left: 40%;
+}
